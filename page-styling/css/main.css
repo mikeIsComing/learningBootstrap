@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* test */
 * {
   margin: 0;
@@ -6,46 +7,48 @@
   box-sizing: border-box;
 }
 
-nav {
-  height: 6rem;
-  padding: 0;
-}
-nav #navbarNav .navbar-nav .nav-item a {
-  font-size: 1.5rem;
-}
-
-.background-img {
-  padding: 0;
-  display: flex;
-  height: 60vh;
-  background-image: url(/images/jumbotron.png);
+.hero {
+  background-image: url(/images/Návrh\ bez\ názvu.png);
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  align-items: center;
 }
-.background-img .hero-txt {
-  height: 20vh;
+.hero h1,
+.hero p {
+  color: #fff;
 }
 
-.quote {
-  padding: 3rem;
+.card-box {
+  padding: 2rem 3rem;
+  margin-top: -4rem;
+}
+.card-box .img-icon {
+  padding: 2rem 0;
+  width: 2rem;
+  align-self: center;
+}
+.card-box .card-header {
+  text-align: center;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+}
+
+.about-us p {
+  line-height: 1.75;
+}
+
+.about-us-pic {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.img-partners {
   display: flex;
-  align-items: center;
   justify-content: center;
 }
-.quote p {
-  font-size: 1.5rem;
-  padding-bottom: 3rem;
-  font-style: italic;
-  font-weight: 300;
-}
-.quote .blockquote-footer {
-  text-align: end;
-  font-size: 1.25rem;
-}
-
-h2 {
-  padding: 3rem 1rem;
+.img-partners img {
+  width: 50%;
 }
 
 /*# sourceMappingURL=main.css.map */

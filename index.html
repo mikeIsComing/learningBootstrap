@@ -12,9 +12,11 @@
     <title>Document</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="/images/logo.png" /></a>
+    <nav class="navbar navbar-expand-lg bg-white border-bottom border-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="/images/Mikey.png" alt="Logo" width="70"
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -26,60 +28,40 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About Us</a>
+              <a class="nav-link" href="#">Features</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Our Team</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
+              <a class="nav-link" href="#">Pricing</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="container-fluid background-img">
-      <div class="container-fluid bg-secondary hero-txt">
-        <h1 class="display-3 text-center text-white">
-          Administration made easy
-        </h1>
-        <p class="fs-4 text-center text-white">
-          Adhoc is an on-demand administrative service for your company growth
-        </p>
-      </div>
-    </div>
-    <div class="container quote">
-      <figure>
-        <blockquote class="blockquote">
-          <p>
-            "Thanks to Adhoc we now have buautiful, faithful service every day.
-            Our customers are happy and engagement has drastically increased.
-            Highly recommend!"
-          </p>
-        </blockquote>
-        <figcaption class="blockquote-footer">
-          Dave Allavar, Academy of code
-        </figcaption>
-      </figure>
-    </div>
-    <div class="container">
-      <div class="row">
-        <h2 class="text-center display-4">Why Adhoc?</h2>
+    <div class="container-fluid">
+      <div class="row hero" style="padding: 8rem 0">
+        <h1 class="text-center">We Are Doing World Impact!</h1>
+        <p class="text-center">Helping others to achieve their goals</p>
       </div>
     </div>
     <div class="container">
-      <div class="row">
-        <div class="card col" style="width: 18rem">
+      <div class="row gap-4">
+        <div
+          class="card col-sx-12 col-md card-box shadow p-3 mb-5 bg-body-tertiary rounded"
+        >
+          <div class="card-header">Online Constulting</div>
           <img
-            src="/images/experienced.png"
-            class="card-img-top"
-            alt="square with suitcase"
+            src="/node_modules/bootstrap-icons/icons/telephone-plus.svg"
+            class="card-img-top img-icon"
+            alt="Telephone"
           />
           <div class="card-body">
             <p class="card-text">
@@ -88,11 +70,15 @@
             </p>
           </div>
         </div>
-        <div class="card col">
+
+        <div
+          class="card col-sx-12 col-md card-box shadow p-3 mb-5 bg-body-tertiary rounded"
+        >
+          <div class="card-header">Results Guaranted</div>
           <img
-            src="/images/fun.png"
-            class="card-img-top"
-            alt="square with emoji"
+            src="/node_modules/bootstrap-icons/icons/hand-thumbs-up.svg"
+            class="card-img-top img-icon"
+            alt="Telephone"
           />
           <div class="card-body">
             <p class="card-text">
@@ -101,11 +87,14 @@
             </p>
           </div>
         </div>
-        <div class="card col">
+        <div
+          class="card col-sx-12 col-md card-box shadow p-3 mb-5 bg-body-tertiary rounded"
+        >
+          <div class="card-header">Best Price</div>
           <img
-            src="/images/smart.png"
-            class="card-img-top"
-            alt="square with bulp"
+            src="/node_modules/bootstrap-icons/icons/currency-dollar.svg"
+            class="card-img-top img-icon"
+            alt="Telephone"
           />
           <div class="card-body">
             <p class="card-text">
@@ -116,5 +105,68 @@
         </div>
       </div>
     </div>
+    <!-- new row for other section -->
+    <div class="container">
+      <div class="row">
+        <h2 class="text-center py-5">About Us</h2>
+      </div>
+      <!-- other row -->
+      <div class="container">
+        <div
+          class="row bg-secondary p-5 shadow p-3 mb-5 bg-body-secondary rounded about-us"
+        >
+          <div class="col-sm-12 col-lg">
+            <img
+              src="/images/woman.png"
+              alt="woman and laptop"
+              class="about-us-pic"
+            />
+          </div>
+          <div class="col-sm-12 col-lg">
+            <h3 class="text-end py-4">Who are we?</h3>
+            <p class="text-end">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum
+              quia corporis, reiciendis exercitationem molestiae consequuntur
+              alias aliquam ipsa a accusantium laborum repellendus minima vero
+              ullam deleniti nesciunt quas quibusdam fuga soluta vel assumenda
+              error totam delectus? Voluptate reprehenderit repudiandae rem quas
+              officiis nesciunt accusantium doloribus quaerat quo, earum sunt
+              ullam.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- section about our partners -->
+      <div class="container">
+        <div class="row">
+          <h2 class="text-center py-5">Partners</h2>
+        </div>
+      </div>
+      <!-- collection of partners -->
+      <div class="container">
+        <div class="row gap-4 py-5">
+          <div
+            class="col-sx-12 col-lg img-partners p-5 shadow p-3 mb-5 rounded"
+          >
+            <img src="/images/Návrh bez názvu/3.png" alt="" />
+          </div>
+          <div
+            class="col-sx-12 col-lg img-partners p-5 shadow p-3 mb-5 rounded"
+          >
+            <img src="/images/Návrh bez názvu/4.png" alt="" />
+          </div>
+          <div
+            class="col-sx-12 col-lg img-partners p-5 shadow p-3 mb-5 rounded"
+          >
+            <img src="/images/Návrh bez názvu/5.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+    </div>
+    <div class="container-fluid">
+      <div class="row hero" style="padding: 4rem 0">
+<p>&copy;All rights reserved by Mikey</p>
+      </div>
   </body>
 </html>
